@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sample Frontend</title>
+  </head>
+  <body>
+    <form action="http://localhost:3000/users/login" method="post">
+      <h3>Efetue login:</h3>
+      <input type="text" name="username" id="username" />
+      <button id="btSubmit" type="submit">Sign In</button>
+    </form>
+    <button id="btnDisplayName" onclick="displayName()">Mostrar Nome</button>
+    <div id="divMessage" style="display: none">
+      <div id="divMessageText">msg</div>
+      <button id="btCloseMessage" onclick="closeMessage()">OK</button>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "sample-backend",
+  "version": "1.0.0",
+  "description": "A sample backend application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enobrega/sample-backend.git"
+  },
+  "keywords": [
+    "sample",
+    "node",
+    "javascript",
+    "backend"
+  ],
+  "author": "Bruno Castro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enobrega/sample-backend/issues"
+  },
+  "homepage": "https://github.com/enobrega/sample-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
